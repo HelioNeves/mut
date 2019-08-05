@@ -3,4 +3,4 @@
 Webscraper utility folder with:
 
 - webscraper.py [script who scrape Indeed urls]
-- search.urls [file with Indeed urls separated by lines to scraper actuation]
+- __pycache__ [cache used by Scraper]

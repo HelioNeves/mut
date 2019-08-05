@@ -1,4 +1,4 @@
-# HOW IT WORKS: docker run -ti $IMAGE python3 [output-title] [urls-file]
+# HOW IT WORKS: docker run -ti $IMAGE python3 [output-title] [urls-file] [toxicwords-file] [num_cluster]
 # Use an official Ubuntu runtime as a parent image
 FROM ubuntu
 
@@ -27,6 +27,7 @@ RUN pip3 install altair && \
     pip3 install vega_datasets && \
     pip3 install jupyterlab
 
+#NLP PACKAGES
 RUN python3 -c "import nltk; nltk.download('punkt')"
 RUN python3 -c "import nltk; nltk.download('rslp')"
 

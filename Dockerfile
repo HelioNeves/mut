@@ -1,4 +1,3 @@
-# HOW IT WORKS: docker run -ti $IMAGE python3 [output-title] [urls-file] [toxicwords-file] [num_cluster]
 # Use an official Ubuntu runtime as a parent image
 FROM ubuntu
 

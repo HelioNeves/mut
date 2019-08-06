@@ -21,7 +21,7 @@ class preprocessor:
                 if ix != yx:
                     if (
                         jf.hamming_distance(
-                            self.data.summary[ix][0:200], self.data.summary[yx][0:200]
+                            str(self.data.summary[ix])[0:200], str(self.data.summary[yx])[0:200]
                         )
                         <= 20
                     ):
@@ -38,7 +38,7 @@ class preprocessor:
         nonpt_ix = []
 
         for ix in range(len(self.data)):
-            if detect(self.data.summary[ix]) != "pt":
+            if detect(str(self.data.summary[ix])) != "pt":
                 nonpt_ix.append(ix)
 
         self.data = self.data[~self.data.index.isin(nonpt_ix)].reset_index(drop=True)

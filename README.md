@@ -7,6 +7,15 @@
 
 This project is intended to make a pipeline of data analysis about opportunities for data science career announced at Indeed. However, this pipeline can classify job opportunities of whenever sector, beyond data science.
 
+![](https://media.giphy.com/media/QW509yJCrNA7T3mxs8/source.gif "Brazillian Data Science Jobs Market: A Deep Analysis")
+> This pipeline generates a .html file with:
+> 1. Clusters 2D Graph
+> 2. Clusters Keywords Ranking
+> 3. TF-IDF Ranking
+
+> Check the "Brazillian Data Science Jobs Market: A Deep Analysis" on the [web](https://datascience4clusters.netlify.com/ "Netlify")!
+
+
 ### Project Details
 #### Folders
 | Folder  | Description  |
@@ -49,7 +58,7 @@ docker build . -t mut
 ```bash
 docker run -ti --name MUT-env mut /bin/bash
 ```
-###### 2. Once inside ubuntu, run pipeline python scripts 
+###### 2. Once inside ubuntu, run pipeline python scripts :snake:
 ###### Scrapy
 ```bash
 python3 scraper.py [db-title] [urls-file]

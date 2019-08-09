@@ -7,7 +7,7 @@
 
 This project is intended to make a pipeline of data analysis about opportunities for data science career announced at Indeed. However, this pipeline can classify job opportunities of whenever sector, beyond data science.
 
-![](https://media.giphy.com/media/QW509yJCrNA7T3mxs8/source.gif "Brazillian Data Science Jobs Market: A Deep Analysis")
+![](https://media.giphy.com/media/QW509yJCrNA7T3mxs8/giphy.gif "Brazillian Data Science Jobs Market: A Deep Analysis")
 > This pipeline generates a .html file with:
 > 1. Clusters 2D Graph
 > 2. Clusters Keywords Ranking
